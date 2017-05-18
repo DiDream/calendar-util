@@ -1,0 +1,15 @@
+{
+  "name": "calendar-util",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "Alex Jimmy Montaño",
+    "email": "alexjimmymn@gmail.com",
+    "url": "http://didream.es/"
+  },
+  "license": "MIT"
+}
