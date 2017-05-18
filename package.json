@@ -1,19 +1,30 @@
 {
   "name": "calendar-util",
   "version": "0.0.1",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "./node_modules/mocha/bin/mocha --require should"
   },
-  "author": {
-    "name": "Alex Jimmy Montaño",
-    "email": "alexjimmymn@gmail.com",
-    "url": "http://didream.es/"
-  },
+  "author": "Alex Jimmy Montaño <alexjimmymn@gmail.com> (http://didream.es/)",
   "license": "MIT",
-  "dependencies": {
+  "dependencies": {},
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {
     "mocha": "^3.4.1",
     "should": "^11.2.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DiDream/calendar-util.git"
+  },
+  "keywords": [
+    "Calendar"
+  ],
+  "bugs": {
+    "url": "https://github.com/DiDream/calendar-util/issues"
+  },
+  "homepage": "https://github.com/DiDream/calendar-util#readme",
+  "description": ""
 }
