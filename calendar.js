@@ -20,7 +20,6 @@ class Calendar {
 
         date.month--; //Ajustar acceso al array;
         this.current = Object.assign({}, date);
-        console.log(this.current);
         this.isLeap = date.year % 4 == 0;
     }
     month(m){
@@ -35,13 +34,11 @@ class Calendar {
         for(var i=0; i<date.month; i++){
             days += this.month(i).days;
         }
-        console.log(days);
         //Suma los dias del año
         days += Math.floor(date.year * 365.25);
 
         //Sumar dias bisiestos;
         if( ( (date.month<2 && date.day <=29) ||(date.month <1) ) && ( this.isLeap ) ) {
-            console.log("Descontanto dia bisiesto");
             days--;
         }
 
@@ -59,3 +56,5 @@ function remainingDays(datesA, dateB){
         datesA[i].remaining =  calB.toDays -calA.toDays;
     }
 }
+module.exports = Calendar;
+module.exports.remainingDays = remainingDays;

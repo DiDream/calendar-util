@@ -4,12 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/mocha/bin/mocha --require should"
   },
   "author": {
     "name": "Alex Jimmy Montaño",
     "email": "alexjimmymn@gmail.com",
     "url": "http://didream.es/"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "mocha": "^3.4.1",
+    "should": "^11.2.1"
+  }
 }
