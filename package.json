@@ -1,7 +1,7 @@
 {
   "name": "calendar-util",
-  "version": "0.1.0",
-  "main": "index.js",
+  "version": "0.1.1",
+  "main": "calendar.js",
   "scripts": {
     "test": "./node_modules/mocha/bin/mocha --require should"
   },
